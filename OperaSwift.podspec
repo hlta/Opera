@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'Sources/iOS/**/*.swift'
   s.dependency 'Alamofire', '~> 4.5.1'
   s.dependency 'RxSwift', '4.0.0'
-  s.dependency 'RxCocoa', '4.0.0'
+  s.dependency 'RxCocoa', '~> 6.0'
 end
